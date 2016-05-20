@@ -8,5 +8,6 @@ from sklearn.cross_validation import train_test_split
 import tensorflow as tf
 import tensorflow.contrib.learn as skflow
 
-
-
+lucas = tf.constant('Hello Lucas!')
+sess = tf.Session()
+print(sess.run(lucas))
